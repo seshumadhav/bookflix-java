@@ -31,14 +31,8 @@
 <div id='container' class="container">
   <div class="row">
     <div class="col-lg-12">
-	  <h2>Yet Another e-Bookshop</h2>
-	  <form method="get" action="/bookflix/query">
-	    Choose an author:<br /><br />
-	    <input type="checkbox" name="author" value="Tan Ah Teck" />Ah Teck
-	    <input type="checkbox" name="author" value="Mohammad Ali" />Ali
-	    <input type="checkbox" name="author" value="Kumar" />Kumar
-	    <input type="submit" value="Search" />
-	  </form>
+    	<h2>Received below response:</h2><br>
+    	{queryResponse}
     </div>
   </div><!--/row-->
 </div> <!-- /container -->
